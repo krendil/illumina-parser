@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IlluminaParser", "IlluminaParser.csproj", "{D4727B58-C012-4460-93BB-617CCF04683E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{C69DD481-6B61-4857-B644-47F13B6931DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E92C1AA2-14F6-4677-A33A-4D4236872C97}"
+	ProjectSection(SolutionItems) = preProject
+		IlluminaParser.vsmdi = IlluminaParser.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://davidosborne.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IlluminaParser.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\Tests\\Tests.csproj
+		SccProjectName2 = ../Tests
+		SccLocalPath2 = ..\\Tests
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = IlluminaParser.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4727B58-C012-4460-93BB-617CCF04683E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4727B58-C012-4460-93BB-617CCF04683E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4727B58-C012-4460-93BB-617CCF04683E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4727B58-C012-4460-93BB-617CCF04683E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69DD481-6B61-4857-B644-47F13B6931DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69DD481-6B61-4857-B644-47F13B6931DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69DD481-6B61-4857-B644-47F13B6931DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69DD481-6B61-4857-B644-47F13B6931DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
